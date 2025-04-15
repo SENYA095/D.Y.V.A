@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>D.Y.V.A</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+	<header id="header">
+		<div class="width">
+			<div class="container">
+				<div data-aos="fade-right" data-aos-duration="1000">
+
+					<img src="./images/logo-image.svg" alt="logo">
+				</div>
+
+				<nav class="nav">
+					<ul>
+						<div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="50">
+							<li><a href="#about">About us</a></li>
+						</div>
+						<div data-aos="fade-down" data-aos-duration="900" data-aos-delay="50">
+							<li><a href="#how-it-works">More information</a></li>
+						</div>
+
+						<div data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">
+							<li><a href="#gallery">Our clients</a></li>
+						</div>
+
+						<div data-aos="fade-down" data-aos-duration="700" data-aos-delay="50">
+							<li><a href="#team">Our team</a></li>
+						</div>
+
+						<div class="burger-li">
+							<li><a href="#team">Book a photoshoot</a></li>
+						</div>
+						<div data-aos="fade-down" data-aos-duration="600" data-aos-delay="50">
+							<li><a href="#faq">Faq</a></li>
+						</div>
+
+					</ul>
+				</nav>
+				<div data-aos="zoom-in" data-aos-delay="500">
+					<a href="index.html" class="lang btn-media" id="lang-en" data-lang="en"
+						style="margin-right: 16px;">EN</a>
+					<a href="index-ru.html" class="lang btn-media" id="lang-ru" data-lang="ru"
+						style="margin-right: 24px;">RU</a>
+					<a href="#contact" class="btn primary-btn btn-media">Book a photoshoot</a>
+				</div>
+
+
+
+				<div class="media-container">
+					<div data-aos="zoom-in" data-aos-delay="500">
+						<a href="index.html" class="lang" id="lang-en" data-lang="en" style="margin-right: 16px;">EN</a>
+						<a href="index-ru.html" class="lang" id="lang-ru" data-lang="ru"
+							style="margin-right: 24px;">RU</a>
+						<a href="#contact" class="btn primary-btn btn-none">Book a photoshoot</a>
+					</div>
+					<div data-aos="zoom-in" data-aos-delay="750">
+						<div class="burger">
+							<span></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="width-popup">
+			<div id="consent-popup" class="popup">
+				<div class="popup-content">
+					<p style="font-size: 20px; color: #654551;">By browsing this site you agree to <span
+							style="color: #C4396C;">terms and conditions.</span></p>
+					<button id="accept-button" class=" btn-window primary-btn">Ok</button>
+				</div>
+			</div>
+		</div>
+		<!-- Overlay burger menu -->
+		<div class="overlay" id="overlay"></div>
+
+		<!-- Hero Section -->
+		<section id="hero">
+			<div class="width">
+				<div class="container">
+					<div class="hero__block-left">
+						<div data-aos="fade-down" data-aos-duration="1000">
+							<h1>A life-changing project that reveals your <span>uniqueness.</span></h1>
+						</div>
+						<div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+							<p>Your story deserves to become <br> an inspiration for you and others.</p>
+						</div>
+						<div class="buttons">
+							<div data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">
+								<a href="#contact" class="btn primary-btn">Book a photoshoot</a>
+							</div>
+							<div data-aos="zoom-in" data-aos-delay="850" data-aos-offset="0">
+								<a href="#about" class="btn secondary-btn">About project</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="full-width">
+						<div class="hero__bg">
+							<img class="hero-bg" src="./images/mainpage-hero.webp" alt="">
+							<img class="hero-bg-media" src="./images/media-img/frame.webp" alt="">
+							<img class="rectangleBig" src="./images/main-image/RectangleBig.svg" alt="">
+							<img class="rectangleBig-media" src="./images/media-img/Rectanglebig-media.svg" alt="">
+							<img class="rectangleSmall" src="./images/main-image/RectangleSmall.svg" alt="">
+							<img class="rectanglesmall-media" src="./images/media-img/Rectanglesmall-media.svg" alt="">
+							<img class="hero-text" src="./images/main-image/Discover Your Venus Appeal-2.webp" alt="">
+							<img class="hero-text-media" src="./images/main-image/Discover Your Venus Appeal-2.webp"
+								alt="">
+							<img class="line arrow" src="./images/main-image/Line.svg" alt="">
+							<img class="line-media" src="./images/media-img/Vector 1-media.svg" alt="">
+							<div class="border"></div>
+						</div>
+					</div>
+				</div>
+				<div class="laptop-width">
+					<div class="hero__bg">
+						<img class="hero-bg" src="./images/mainpage-hero.webp" alt="">
+						<img class="hero-bg-media" src="./images/main-page-mobile.webp" alt="">
+						<img class="rectangleBig" src="./images/main-image/RectangleBig.svg" alt="">
+						<img class="rectangleBig-media" src="./images/media-img/Rectanglebig-media.svg" alt="">
+						<img class="rectangleSmall" src="./images/main-image/RectangleSmall.svg" alt="">
+						<img class="rectanglesmall-media" src="./images/media-img/Rectanglesmall-media.svg" alt="">
+						<img class="hero-text" src="./images/main-image/Discover Your Venus Appeal-2.webp" alt="">
+						<img class="hero-text-media" src="./images/main-image/Discover Your Venus Appeal-2.webp" alt="">
+						<img class="line arrow" src="./images/main-image/Line.svg" alt="">
+						<img class="line-media" src="./images/media-img/Vector 1-media.svg" alt="">
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- About Section -->
+		<section id="about">
+			<div class="width">
+				<div class="container">
+					<div data-aos="fade-down" data-aos-duration="1000">
+						<h2>About us</h2>
+					</div>
+					<div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+						<h3>A personalized photoshoot inspired by your natal chart</h3>
+					</div>
+					<div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="750">
+						<p>We combine art, psychology, and astrology to create a <span>special</span> visual portrait of
+							<span>your personality</span>. Our team of a photographer, makeup artist, marketing, and
+							astropsychologist works together to capture <span>your individuality</span> and inner
+							harmony <span>through the lens.</span></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- How It Works Section -->
+		<section id="how-it-works">
+			<div class="width">
+				<div class="container">
+					<div class="how-it-works__title">
+						<div data-aos="fade-right" data-aos-duration="1000">
+							<h2>More information</h2>
+						</div>
+						<div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="350">
+							<p>The journey to your exclusive lookbook</p>
+						</div>
+					</div>
+
+					<div class="steps">
+
+
+						<div class="step" data-aos="zoom-in" data-aos-offset="-100" data-aos-duration="1000">
+							<div class="step__number">1.</div>
+							<div class="step__title">Natal Chart Analysis</div>
+							<div class="step__content">Our astropsychologist studies your natal chart to uncover the key
+								traits of your personality.</div>
+						</div>
+
+						<div class="step step-margin" data-aos="zoom-in" data-aos-offset="-100" data-aos-duration="1000"
+							data-aos-delay="450">
+							<div class="step__number">2.</div>
+							<div class="step__title">Concept Creation</div>
+							<div class="step__content">Our team create personalized moodboard for the photoshoot that
+								will highlight your grace.</div>
+						</div>
+
+						<div class="step step-margin-three" data-aos="zoom-in" data-aos-offset="-100"
+							data-aos-duration="1000" data-aos-delay="550">
+							<div class="step__number">3.</div>
+							<div class="step__title">Outfit selection</div>
+							<div class="step__content">Our stylist chooses outfit and location for your unforgettable
+								experience.</div>
+						</div>
+
+						<div class="step last__step" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000"
+							data-aos-delay="650">
+
+							<div class="step__number" style="color: #DA3F78;">4.</div>
+							<div class="step__title" style="color: #DA3F78;">Photoshoot</div>
+							<div class="step__content">Our photographer will reveal your personality, taking your
+								self-esteem and true attractiveness to a new level.</div>
+						</div>
+
+						<div class="frame_frame" style="margin-top: 30px;">
+							<div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="750">
+								<div class="frame">
+									<div class="frame__step">
+										<div class="frame-step__number" style="color: #DA3F78;">4.</div>
+										<div class="frame-step__title" style="color: #DA3F78;">Photoshoot</div>
+										<div class="step__content">Our photographer will reveal your personality, taking
+											your self-esteem and true attractiveness to a new level.</div>
+
+									</div>
+									<img src="./images/main-image/pink-instagram.svg" alt="">
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+
+
+
+
+
+
+
+
+				</div>
+			</div>
+
+			</div>
+		</section>
+
+		<!-- Gallery Section -->
+		<section id="gallery">
+			<div class="width">
+				<div class="container">
+					<div class="gallery__content">
+						<div style="display: flex; flex-direction: column; gap: 20px; align-items: flex-start;">
+							<div data-aos="fade-down" data-aos-duration="1000">
+								<h2>Your uniqueness in every picture</h2>
+							</div>
+							<div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+								<p style="font-size: 20px; font-weight: 400; color: #F9F9F9;" class="text-gallery">Ready
+									to discover new sides of yourself? Book a personalized photoshoot and create images
+									that tell your story.</p>
+							</div>
+							<div data-aos="zoom-in" data-aos-delay="450" data-aos-offset="0">
+								<a href="#contact" class="btn secondary-btn-gallery">Book a photoshoot</a>
+							</div>
+						</div>
+						<div class="text-bottom">
+							<div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="500"
+								data-aos-offset="0">
+								<p style="font-size: 24px; font-weight: 500;"><span
+										style="font-size: 36px; font-weight: 500;">100% </span><br>
+									satisfied customers</p>
+							</div>
+						</div>
+					</div>
+
+					<button class="slider-btn" id="prev">&#10094;</button>
+					<div class="slider-container">
+						<div class="slider">
+							<div data-aos="zoom-in-up" data-aos-duration="1000">
+								<img src="./images/slider-image/img-1.webp" alt="">
+							</div>
+							<div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
+								<img src="./images/slider-image/img-2.webp" alt="">
+							</div>
+							<div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
+								<img src="./images/slider-image/img-3.webp" alt="">
+							</div>
+							<img src="./images/slider-image/img-4.webp" alt="">
+							<img src="./images/slider-image/img-5.webp" alt="">
+							<img src="./images/slider-image/img-6.webp" alt="">
+							<img src="./images/slider-image/img-7.webp" alt="">
+							<img src="./images/slider-image/img-8.webp" alt="">
+							<img src="./images/slider-image/img-9.webp" alt="">
+							<img src="./images/slider-image/img-10.webp" alt="">
+						</div>
+
+						<button id="prev-btn">&#10094;</button>
+						<button id="next-btn">&#10095;</button>
+						<button class="slider-btn" id="next">&#10095;</button>
+					</div>
+
+
+					<div class="slider-media" data-aos="fade-right" data-aos-duration="1000">
+						<div class="carrousel">
+							<img class="card" src="./images/slider-image/img-1.webp" alt="">
+							<img class="card" src="./images/slider-image/img-2.webp" alt="">
+							<img class="card" src="./images/slider-image/img-3.webp" alt="">
+							<img class="card" src="./images/slider-image/img-4.webp" alt="">
+							<img class="card" src="./images/slider-image/img-5.webp" alt="">
+							<img class="card" src="./images/slider-image/img-6.webp" alt="">
+							<img class="card" src="./images/slider-image/img-7.webp" alt="">
+							<img class="card" src="./images/slider-image/img-8.webp" alt="">
+							<img class="card" src="./images/slider-image/img-9.webp" alt="">
+							<img class="card" src="./images/slider-image/img-10.webp" alt="">
+						</div>
+					</div>
+
+					<div class="text-bottom-two">
+						<div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="0">
+							<p style="font-size: 32px; font-weight: 500;">100% </p>
+							<p style="font-size: 16px;">satisfied customers</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Team Section -->
+		<section id="team">
+			<div class="width">
+				<div class="container">
+					<div data-aos="fade-down" data-aos-offset="150" data-aos-duration="1000">
+						<h2>Our team</h2>
+					</div>
+					<div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+						<p>Meet the team behind your peerless photoshoot</p>
+					</div>
+
+					<div class="team-members">
+						<div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+							<div class="team-member__one">
+								<div class="team-member-content">
+									<h4>Lena</h4>
+									<span>Photographer</span>
+									<a href="https://www.instagram.com/jamadamka?igsh=dndlM3kwNDY1M3Zx"><img
+											style="width: 24px; height: 24px;" src="./images/our-team/instagram.webp"
+											alt="icon"></a>
+								</div>
+							</div>
+						</div>
+						<div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="650">
+							<div class="team-member__two">
+								<div class="team-member-content">
+									<h4>Nika</h4>
+									<span>Makeup Artist</span>
+									<a href="https://www.instagram.com/nika_voitekhovskaya?igsh=MWdyY2Y2b3Q1eTlmMQ=="><img
+											style="width: 24px; height: 24px;" src="./images/our-team/instagram.webp"
+											alt="icon"></a>
+								</div>
+							</div>
+						</div>
+						<div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="750">
+							<div class="team-member__three">
+								<div class="team-member-content">
+									<h4>Veronika</h4>
+									<span>Astropsychologist</span>
+									<a href="https://www.instagram.com/sigal.veronika?igsh=MWd0NTRsMTBmbG56aA=="><img
+											style="width: 24px; height: 24px;" src="./images/our-team/instagram.webp"
+											alt="icon"></a>
+								</div>
+							</div>
+						</div>
+						<div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="850">
+							<div class="team-member__four">
+								<div class="team-member-content">
+									<h4>Alena</h4>
+									<span>Marketing</span>
+									<a
+										href="https://www.instagram.com/alena.trulife.marbella?igsh=NzkyZGpuN3J0ZzF5&utm_source=qr"><img
+											style="width: 24px; height: 24px;" src="./images/our-team/instagram.webp"
+											alt="icon"></a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slider-media" data-aos="fade-right" data-aos-duration="1000">
+						<div class="carrousel">
+							<div class="card-one">
+								<div class="card-content">
+									<h4>Lena</h4>
+									<span>Photographer</span>
+									<a href="https://www.instagram.com/jamadamka?igsh=dndlM3kwNDY1M3Zx"><img
+											style="width: 24px; height: 24px;" src="./images/our-team/instagram.webp"
+											alt="icon"></a>
+								</div>
+							</div>
+							<div class="card-two">
+								<div class="card-content">
+									<h4>Nika</h4>
+									<span>Makeup Artist</span>
+									<a href="https://www.instagram.com/nika_voitekhovskaya?igsh=MWdyY2Y2b3Q1eTlmMQ=="><img
+											style="width: 24px; height: 24px;" src="./images/our-team/instagram.webp"
+											alt="icon"></a>
+								</div>
+							</div>
+							<div class="card-three">
+								<div class="card-content">
+									<h4>Veronika</h4>
+									<span>Astropsychologist</span>
+									<a href="https://www.instagram.com/sigal.veronika?igsh=MWd0NTRsMTBmbG56aA=="><img
+											style="width: 24px; height: 24px;" src="./images/our-team/instagram.webp"
+											alt="icon"></a>
+								</div>
+							</div>
+							<div class="card-four">
+								<div class="card-content">
+									<h4>Alena</h4>
+									<span>Marketing</span>
+									<a
+										href="https://www.instagram.com/alena.trulife.marbella?igsh=NzkyZGpuN3J0ZzF5&utm_source=qr"><img
+											style="width: 24px; height: 24px;" src="./images/our-team/instagram.webp"
+											alt="icon"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="width">
+				<div class="container">
+					<div class="block-left">
+						<div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+							<h2>contact us</h2>
+						</div>
+						<div data-aos="fade-right" data-aos-duration="1000">
+							<p>Your photo shoot is waiting for you!</p>
+							<p style="	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+		color: #654551;
+		font-size: 20px;
+		margin-top: 8px;">Make a reservation by filling out and submitting your details using the button below.</p>
+						</div>
+
+						<script async src="https://js.stripe.com/v3/buy-button.js">
+						</script>
+
+						<stripe-buy-button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800"
+							buy-button-id="buy_btn_1QUb1OAVWugqZq8S2BuxNkqo"
+							publishable-key="pk_live_51MEzxxAVWugqZq8S11Cw9XNqsbwf8BKe8n05w2qThOOCq2NnUNhNaPaXsEJj67Dq2gmHCsGBXnOy14gqsiV2GATY00TIVuJBsY">
+						</stripe-buy-button>
+
+					</div>
+					<div class="block-right">
+						<div class="form__bg">
+							<img class="form_bg" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="-200"
+								src="./images/main-image/contact-image.webp" alt="">
+							<img class="form__line" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200"
+								src="./images/main-image/Vector 1.svg" alt="">
+
+							<div class="form__frame"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FAQ Section -->
+		<section id="faq">
+			<div class="width">
+				<div class="container">
+
+					<div class="faq__title">
+						<div data-aos="fade-right" data-aos-duration="1000">
+							<h2>FAQ</h2>
+						</div>
+						<div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+							<p>We are always happy to help you.</p>
+						</div>
+					</div>
+
+					<div class="questions">
+						<div class="question">
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150">
+								<h3>What is a natal chart?</h3>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
+								<p>It’s a personalized map of the planets’ positions at the time of your birth,
+									revealing aspects of your personality and life paths.</p>
+							</div>
+						</div>
+						<div class="question__underline"></div>
+
+						<div class="question">
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
+								<h3>How long does the photoshoot take?</h3>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="350">
+								<p>The entire process, including preparation and shooting, takes around 3–5 hours.</p>
+							</div>
+						</div>
+						<div class="question__underline"></div>
+
+						<div class="question">
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="350">
+								<h3>Do I need to prepare for the shoot?</h3>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="450">
+								<p> No, our team will take care of creating the concept, choosing your look, and
+									ensuring the right atmosphere.</p>
+							</div>
+						</div>
+						<div class="question__underline"></div>
+
+						<div class="question">
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="450">
+								<h3>Can I get the photos in digital format?</h3>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="550">
+								<p>Absolutely! We’ll provide you with professionally edited images in high quality.</p>
+							</div>
+						</div>
+						<div class="question__underline"></div>
+
+						<div class="question">
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="550">
+								<h3>What can I do if I don't know the exact time of birth?</h3>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="650">
+								<p>It's not a problem, our astropsychologist can select an image even without the exact
+									time of birth.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<div data-aos="zoom-in" data-aos-duration="1000">
+			<footer>
+				<div class="width">
+					<div class="container">
+						<!-- <div class="logo">
+				<div class="logo-name">D.Y.V.A</div>
+				<div class="logo-disc">Discover Your Venus Appeal</div>
+								</div> -->
+						<img src="./images/logo-image.svg" alt="logo">
+
+						<div class="footer__links">
+							<a href="#">Terms and conditions.</a>
+						</div>
+
+						<div class="social-links">
+							<div class="footer-text-container">
+								<p class="footer-text">Find Us</p>
+							</div>
+							<div>
+								<a href="https://www.instagram.com/dyva_project/profilecard/?igsh=ejU3amx0ZmRjbm5t"
+									class="social-icons"><img src="./images/social-links/InstagramIcon.svg" alt=""></a>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!--
+<div class="slider-media">
+	<div class="carrousel">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+		<img class="card" src="./images/our-team/our-team-1.jpg" alt="">
+	</div>
+</div> -->
+		<!-- <img class="arrow" src="./images/main-image/Hero.png" alt=""> -->
+	</main>
+	<script src="./scripts/slider.js"></script>
+	<script src="./scripts/popupWindow.js"></script>
+	<script src="./scripts/burgerMenu.js"></script>
+	<script src="./scripts/scroll.js"></script>
+	<script src="./scripts/lang.js" defer></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init(
+			{
+				once: true,
+				offset: 0
+			});
+	</script>
+</body>
+
+</html>
